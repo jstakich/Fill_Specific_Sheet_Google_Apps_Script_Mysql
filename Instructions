@@ -1,0 +1,7 @@
+This is an example of using an App Script that loads a Specific Google Sheet with Data from a MySQL Database
+Step-by-step guide
+ 
+Set a button in Google Sheets to call the following function
+This script starts with Cell A2:C2 and loads all the fields that are available in the database.
+Also Note the “3” that is in “ss.getSheets()[3]”
+This “3” refers to the sheet that your grabbing the fields off of.
